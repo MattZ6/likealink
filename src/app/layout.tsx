@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Like a Links",
+  title: "Like a Links (beta)",
   description: "Coleção de links da banda Like a Tear",
 };
 
