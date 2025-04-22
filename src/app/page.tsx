@@ -1,17 +1,17 @@
 import Image from 'next/image'
 
 import { YoutubeLogo } from '@phosphor-icons/react/dist/ssr/YoutubeLogo'
-import { TiktokLogo } from '@phosphor-icons/react/dist/ssr/TiktokLogo'
 import { InstagramLogo } from '@phosphor-icons/react/dist/ssr/InstagramLogo'
 import { SpotifyLogo } from '@phosphor-icons/react/dist/ssr/SpotifyLogo'
-import { MusicNote } from '@phosphor-icons/react/dist/ssr/MusicNote'
 
 import bandLogo from '../../public/logo.webp'
+import melhorDoQueAntesVynil from '../../public/melhor-do-que-antes.jpg'
+import audioWave from '../../public/audio-wave.gif'
 
 export default function HomePage() {
   return (
     <main className="flex-1 flex flex-col gap-6 min-h-full max-w-3xl mx-auto py-20 px-4">
-        <Image src={bandLogo} alt="" className="size-28 md:size-40 rounded-xl self-center shadow-md" />
+      <Image src={bandLogo} alt="" placeholder="blur" className="size-28 md:size-40 rounded-xl self-center shadow-md border border-border" />
 
       <div className="flex flex-col items-center gap-2">
         <h2 className="text-center text-2xl text-foreground font-mono font-medium">Like a Tear</h2>
@@ -30,14 +30,21 @@ export default function HomePage() {
         <a href="https://www.youtube.com/@LikeaTear" target="_blank" className="flex items-center justify-center size-10 rounded-md hover:bg-muted text-foreground">
           <YoutubeLogo weight="light" className="size-8" />
         </a>
-        <a href="https://tiktok.com/@likeatear" target="_blank" className="flex items-center justify-center size-10 rounded-md hover:bg-muted text-foreground">
-          <TiktokLogo weight="light" className="size-8" />
-        </a>
       </div>
 
-      <a href="https://open.spotify.com/intl-pt/track/43WN6G6fDiat8RPDyTFOT7" target="_blank" className="flex items-center justify-center self-center gap-2 min-h-8 rounded-full border border-border w-fit px-3 py-1 shadow-sm">
-        <MusicNote className="size-4 hidden md:block" />
-        <span className="text-center text-base">Ouça nosso novo single, {'"'}Melhor do Que Antes{'"'}</span>
+      <a
+        href="https://open.spotify.com/intl-pt/track/43WN6G6fDiat8RPDyTFOT7?si=1a89f4b9527547b6"
+        target="_blank"
+        className="flex items-center gap-4 p-4 bg-primary rounded-md max-w-[420px] w-full self-center relative"
+      >
+        <Image src={melhorDoQueAntesVynil} alt="" placeholder="blur" className="size-20 bg-background rounded-xs" />
+
+        <div className="flex flex-col gap-1">
+          <span className="font-medium text-base text-primary-foreground">Melhor do Que Antes</span>
+          <span className="text-base text-primary-foreground">Ouça nosso mais novo single! 🔥</span>
+        </div>
+
+        <Image src={audioWave} alt="" className="size-12 absolute bottom-1 right-2" />
       </a>
 
       <nav className="flex flex-col gap-2 w-full max-w-xl mx-auto">
