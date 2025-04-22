@@ -41,10 +41,10 @@ export default function HomePage() {
 
         <div className="flex flex-col gap-1">
           <span className="font-medium text-base text-primary-foreground">Melhor do Que Antes</span>
-          <span className="text-base text-primary-foreground">Ouça nosso mais novo single! 🔥</span>
+          <span className="text-base text-primary-foreground">Nosso mais novo single! 🔥</span>
         </div>
 
-        <Image src={audioWave} alt="" className="size-12 absolute bottom-1 right-2" />
+        <Image unoptimized src={audioWave} alt="" className="size-12 absolute bottom-1 right-2" />
       </a>
 
       <nav className="flex flex-col gap-2 w-full max-w-xl mx-auto">
@@ -52,7 +52,7 @@ export default function HomePage() {
           Veja o lyric vídeo de {'"'}Melhor do Que Antes{'"'} no YouTube
         </a>
         <a href="https://instagram.com/likeatear_" target="_blank" className="flex items-center justify-center rounded-md min-h-12 py-2 text-center hover:bg-gray-100 border border-border md:border-0">
-          Siga gente no Insta
+          Siga a gente no Insta
         </a>
         <a href="https://likeatear.com" target="_blank" className="flex items-center justify-center rounded-md min-h-12 py-2 text-center hover:bg-gray-100 border border-border md:border-0">
           Conheça nosso site
