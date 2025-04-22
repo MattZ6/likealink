@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,14 +13,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+const title = 'Like a Links'
 
-  title: "Like a Links",
+export const metadata: Metadata = {
+  title,
+  applicationName: title,
   description: "Coleção de links da banda Like a Tear",
-  applicationName: 'Like a Links',
-  authors: [{ name: 'Like a Tear', url: 'https://' }],
-  creator: 'Like a Tear',
-  keywords: ['banda', 'hardcore', 'melodico', 'guarapuava', 'parana', 'autoral', 'musica', 'links', 'like', 'tear', 'like a tear'],
+  creator: "Like a Tear Dev Team",
+  alternates: {
+    canonical: "https://likeatear.com"
+  },
+  keywords: [
+    "banda",
+    "música",
+    "links",
+    "rock",
+    "hardcore",
+    "melódico",
+    "hardcore melódico",
+    "guarapuava",
+    "paraná",
+    "brasil",
+  ],
   publisher: 'Like a Tear',
   generator: 'Like a Tear',
   openGraph: {
@@ -43,6 +58,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
+        <Analytics />
       </body>
     </html>
   );
