@@ -1,6 +1,6 @@
 {
   "name": "links.likeatear.com",
-  "version": "0.0.4-beta",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
