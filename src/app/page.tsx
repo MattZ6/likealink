@@ -33,7 +33,7 @@ export default function HomePage() {
       </div>
 
       <a
-        href="https://open.spotify.com/intl-pt/track/43WN6G6fDiat8RPDyTFOT7?si=1a89f4b9527547b6"
+        href="https://musicpro.live/s/7900279250089"
         target="_blank"
         className="flex items-center gap-4 p-4 bg-primary rounded-md max-w-[420px] w-full self-center relative"
       >
