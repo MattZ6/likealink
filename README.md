@@ -5,7 +5,7 @@
     🎛️ Like a Links
   </h1>
 
-  > Like a Tear band links micro website 🔥
+  > Micro website for the Like a Tear band links 🔥
 </div>
 
 ## 💡 You will need
