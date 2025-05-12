@@ -1,7 +1,21 @@
 {
-  "name": "links.likeatear.com",
-  "version": "0.0.5",
   "private": true,
+  "name": "likealinks",
+  "description": "Like a Tear band links micro website",
+  "version": "0.0.5",
+  "license": "MIT",
+  "author": {
+    "name": "Matheus Zanin",
+    "url": "https://zanin.dev",
+    "email": "matheus@zanin.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattZ6/likealinks"
+  },
+  "bugs": {
+    "url": "https://github.com/MattZ6/likealinks/issues"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
