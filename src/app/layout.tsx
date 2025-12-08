@@ -1,7 +1,7 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,25 +18,26 @@ const title = 'Like a Links'
 export const metadata: Metadata = {
   title,
   applicationName: title,
-  description: "Coleção de links da banda Like a Tear",
-  creator: "Like a Tear Dev Team",
+  description: 'Coleção de links da banda Like a Tear',
+  creator: 'Like a Tear Dev Team',
   alternates: {
-    canonical: "https://likeatear.com"
+    canonical: 'https://likeatear.com'
   },
   keywords: [
-    "banda",
-    "música",
-    "links",
-    "rock",
-    "hardcore",
-    "melódico",
-    "hardcore melódico",
-    "guarapuava",
-    "paraná",
-    "brasil",
+    'banda',
+    'música',
+    'links',
+    'rock',
+    'hardcore',
+    'melódico',
+    'hardcore melódico',
+    'guarapuava',
+    'paraná',
+    'brasil',
   ],
   publisher: 'Like a Tear',
   generator: 'Like a Tear',
+  metadataBase: 'https://links.likeatear.com',
   openGraph: {
     type: 'website',
     title: 'Like a Links',
