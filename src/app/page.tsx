@@ -18,7 +18,7 @@ export default function HomePage() {
         <p className="text-center text-base text-muted-foreground font-mono">Hardcore melódico de Guarapuava, PR.</p>
       </div>
 
-      <hr className="self-center w-28 h-[1px] border-0 bg-border" />
+      <hr className="self-center w-28 h-px border-0 bg-border" />
 
       <div className="flex gap-2 items-center justify-center">
         <a href="https://open.spotify.com/intl-pt/artist/6UT0bycABPfvalMWR3TWVG" target="_blank" className="flex items-center justify-center size-10 rounded-md hover:bg-muted text-foreground">
@@ -35,7 +35,7 @@ export default function HomePage() {
       <a
         href="https://musicpro.live/s/7900279250089"
         target="_blank"
-        className="flex items-center gap-4 p-4 bg-primary rounded-md max-w-[420px] w-full self-center relative"
+        className="flex items-center gap-4 p-4 bg-primary rounded-md max-w-105 w-full self-center relative"
       >
         <Image src={melhorDoQueAntesVynil} alt="" placeholder="blur" className="size-20 bg-background rounded-xs" />
 
