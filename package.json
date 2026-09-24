@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "likealinks",
+  "name": "likealink",
   "description": "Micro website for the Like a Tear band links",
   "version": "1.0.3",
   "license": "MIT",
@@ -12,10 +12,10 @@
   "homepage": "https://links.likeatear.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MattZ6/likealinks"
+    "url": "https://github.com/MattZ6/likealink"
   },
   "bugs": {
-    "url": "https://github.com/MattZ6/likealinks/issues"
+    "url": "https://github.com/MattZ6/likealink/issues"
   },
   "scripts": {
     "dev": "next dev --turbopack",

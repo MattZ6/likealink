@@ -2,7 +2,7 @@
   <img title="a title" alt="Like a Tear" src="./src/app/opengraph-image.jpg">
 
   <h1>
-    🎛️ Like a Links
+    🎛️ Like a Link
   </h1>
 
   > Micro website for the Like a Tear band links 🔥
@@ -20,16 +20,16 @@
 In order to clone the project (via HTTPS), run this command:
 
 ```bash
-git clone https://github.com/MattZ6/likealinks.git
+git clone https://github.com/MattZ6/likealink.git
 ```
 
-> 💡 SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command: `git clone git@github.com:MattZ6/likealinks.git`
+> 💡 SSH URLs provide access to a Git repository via SSH, a secure protocol. If you have a SSH key registered in your Github account, clone the project using this command: `git clone git@github.com:MattZ6/likealink.git`
 
 
 Go to project folder:
 
 ```bash
-cd likealinks
+cd likealink
 ```
 
 ### Dependencies
@@ -51,9 +51,9 @@ bun dev
 
 ## 🤝 Contributing
 
-> Contributions, issues and new features are **always welcome**! You can explore them [here](https://github.com/MattZ6/likealinks/issues).
+> Contributions, issues and new features are **always welcome**! You can explore them [here](https://github.com/MattZ6/likealink/issues).
 
-Feel free to submit a new issue with a respective title and description on the the **🎛️ Like a Links** repository. If you already found a solution to your problem, I would love to review your pull request! Have a look at our [contribution guidelines](.github/CONTRIBUTING.md) to find out about the coding standards.
+Feel free to submit a new issue with a respective title and description on the the **🎛️ Like a Link** repository. If you already found a solution to your problem, I would love to review your pull request! Have a look at our [contribution guidelines](.github/CONTRIBUTING.md) to find out about the coding standards.
 
 ___
 
