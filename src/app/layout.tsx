@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const title = 'Like a Links'
+const title = 'Like a Link'
 
 export const metadata: Metadata = {
   title,
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   description: 'Coleção de links da banda Like a Tear',
   creator: 'Like a Tear Dev Team',
   alternates: {
-    canonical: 'https://likeatear.com'
+    canonical: 'https://links.likeatear.com'
   },
   keywords: [
     'banda',
@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   metadataBase: 'https://links.likeatear.com',
   openGraph: {
     type: 'website',
-    title: 'Like a Links',
+    title: 'Like a Link',
     description: 'Coleção de links da banda Like a Tear',
-    siteName: 'Like a Links',
+    siteName: 'Like a Link',
     locale: 'pt-br',
     url: 'https://links.likeatear.com',
   }
